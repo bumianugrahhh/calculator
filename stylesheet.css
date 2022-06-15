@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+*{
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: #fff;
+}
+
+/* h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin: 20px auto;
+} */
+
+.calculator {
+    text-align: center;
+    margin: 40px auto;
+    padding: 10px;
+    width: 400px;
+}
+
+.calculator-screen {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    color: #FF844B;
+    text-align: right;
+    font-size: 36px;
+    border: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+    box-shadow: inset -1px -1px 3px rgba(255, 255, 255, .1),
+                inset 2px 2px 6px rgba(0, 0, 0, .8);
+}
+
+.calculator-keys {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+button {
+    height: 80px;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    color: #252525;
+    width: 25%;
+    outline: none;
+    box-shadow: -1px -1px 3px rgba(255, 255, 255, .1),
+                2px 2px 6px rgba(0, 0, 0, .8);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #fff;
+    box-shadow: inset -1px -1px 3px rgba(255, 255, 255, .1),
+                inset 2px 2px 6px rgba(0, 0, 0, .8);
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+/* .all-clear, .zero-btn {
+    width: 50%;
+} */
+
+.all-clear, 
+.equal-sign {
+    color: #FF844B;
+} 
+
+/* button:hover{
+    background-color: #FF844B;
+} */
+
+.all-clear:hover, 
+.equal-sign:hover {
+    background-color: #FF844B;
+    color: #fff;
+}
+
+.phi {
+    font-size: 30px;
+}
+
+/* Footer */
+footer.sticky-footer {
+    padding:2rem 0;
+    -ms-flex-negative:0;
+    flex-shrink:0;
+    width:100%;
+    line-height:1;
+    font-size:.8rem;
+    color: #FF844B;
+    text-align: center;
+}
